@@ -1,6 +1,9 @@
 import cv2
 import numpy as np
 
+# cari gambar yang ingin dicari dari scene gambar yang disediakan
+# dengan menggunakan matchTemplate
+# caranya dengan cek satu2 dari sudut atas scene gambar smpai sudut bawah scene gambar
 image = cv2.imread('WaldoBeach.jpg')
 cv2.imshow('Where is waldo?', image)
 cv2.waitKey(0)
